@@ -1,0 +1,13 @@
+﻿#include <iostream>
+using namespace std;
+
+int main()
+{
+	int number = 12, variant, ostatok;
+	cout << "enter option\n";
+	cin >> variant;
+	ostatok = number % variant;
+	cout << "remainder = " << ostatok;
+}
+
+

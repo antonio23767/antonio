@@ -1,0 +1,14 @@
+﻿#include <iostream>
+using namespace std;
+
+int main()
+{
+	int variant, ostatok;
+	char name[10];
+	cout << "enter name\n";
+	cin >> name;
+	cout << "enter option\n";
+	cin >> variant;
+	ostatok = name[0] % variant;
+	cout << "remainder = " << ostatok;
+}

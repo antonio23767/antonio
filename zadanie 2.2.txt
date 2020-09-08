@@ -1,0 +1,26 @@
+﻿#include <iostream>
+using namespace std;
+
+int main()
+{
+	int i, j, n, m, a = 6, b = 12, q = 1;
+	for (n = 1; n <= 12; n++) {
+		if (q % 2) {
+			for (i = a; i > 0; i--) {
+				cout << "2";
+			}
+			for (j = b; j < 12; j++)
+				cout << "*";
+			b = b - 2;
+			for (i = a; i > 0; i--) {
+				cout << "2";
+			}
+			cout << endl;
+			a--;
+		}
+		else {
+			cout << endl;
+		}
+		q++;
+	}
+}
